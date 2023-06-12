@@ -1,18 +1,11 @@
-## Getting Started
+# Description
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This is database engine with support for Octrees Indices.
+The required functionalities are:
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+1. creating tables
+2. inserting tuples
+3. deleting tuples
+4. searching in tables linearly
+5. creating an Octree upon demand
+6. using the created octree(s) where appropriate

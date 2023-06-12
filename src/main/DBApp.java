@@ -1264,17 +1264,17 @@ public class DBApp {
     }
 
     public static void main(String[] args) throws Exception {
-        DBApp db = new DBApp();
-        db.init();
-        createCoursesTable(db);
-        createPCsTable(db);
-        createTranscriptsTable(db);
-        createStudentTable(db);
-        insertPCsRecords(db, 500);
-        insertTranscriptsRecords(db, 500);
-        insertStudentRecords(db, 500);
-        insertCoursesRecords(db, 500);
-        System.out.println("done");
+        // DBApp db = new DBApp();
+        // db.init();
+        // createCoursesTable(db);
+        // createPCsTable(db);
+        // createTranscriptsTable(db);
+        // createStudentTable(db);
+        // insertPCsRecords(db, 500);
+        // insertTranscriptsRecords(db, 500);
+        // insertStudentRecords(db, 500);
+        // insertCoursesRecords(db, 500);
+        // System.out.println("done");
     }
 
 }
