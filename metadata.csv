@@ -1,0 +1,17 @@
+Table Name, Column Name, Column Type, ClusteringKey, IndexName,IndexType, min, maxcourses,hours,java.lang.Integer,date_added,null,null,1,24
+
+courses,hours,java.lang.Integer,date_added,null,null,1,24
+courses,date_added,java.util.Date,date_added,null,null,1901-01-01,2020-12-31
+courses,course_id,java.lang.String,date_added,null,null,0000,9999
+courses,course_name,java.lang.String,date_added,null,null,AAAAAA,zzzzzz
+pcs,pc_id,java.lang.Integer,pc_id,null,null,0,20000
+pcs,student_id,java.lang.String,pc_id,null,null,43-0000,99-9999
+transcripts,gpa,java.lang.Double,gpa,null,null,0.7,5.0
+transcripts,date_passed,java.util.Date,gpa,null,null,1990-01-01,2020-12-31
+transcripts,course_name,java.lang.String,gpa,null,null,AAAAAA,zzzzzz
+transcripts,student_id,java.lang.String,gpa,null,null,43-0000,99-9999
+students,gpa,java.lang.Double,id,null,null,0.7,5.0
+students,last_name,java.lang.String,id,null,null,AAAAAA,zzzzzz
+students,first_name,java.lang.String,id,null,null,AAAAAA,zzzzzz
+students,dob,java.util.Date,id,null,null,1990-01-01,2000-12-31
+students,id,java.lang.String,id,null,null,43-0000,99-9999
